@@ -1,4 +1,4 @@
-package programmers.basic;
+package programmers.basic.day1;
 
 public class FindTheQuotient {
 

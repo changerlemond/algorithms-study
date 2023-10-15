@@ -1,4 +1,4 @@
-package programmers.basic
+package programmers.basic.day2
 
 class AddingFractionsKotlin {
 
