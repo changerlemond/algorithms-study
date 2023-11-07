@@ -1,6 +1,6 @@
 package programmers.basic.day6
 
-fun main(args: Array<String>) {
+fun main() {
     val (n) = readln().split(' ').map(String::toInt)
 
     for (i in 1..n) {

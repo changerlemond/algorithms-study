@@ -11,10 +11,10 @@ public class CountOfEvenAndOddNumbers {
 
     public static int[] solution(int[] num_list) {
         int[] list = Arrays.stream(num_list).map(num -> num % 2).toArray();
-        Long evenNumberCount = Arrays.stream(list).filter(num -> num == 0).count();
-        Long oddNumberCount = Arrays.stream(list).filter(num -> num == 1).count();
+        long evenNumberCount = Arrays.stream(list).filter(num -> num == 0).count();
+        long oddNumberCount = Arrays.stream(list).filter(num -> num == 1).count();
 
-        return new int[]{evenNumberCount.intValue(), oddNumberCount.intValue()};
+        return new int[]{(int) evenNumberCount, (int) oddNumberCount};
     }
 
     public static int[] solution1(int[] num_list) {
