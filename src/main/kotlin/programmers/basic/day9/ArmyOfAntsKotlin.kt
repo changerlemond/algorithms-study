@@ -1,4 +1,4 @@
-package programmers.basic.day9;
+package programmers.basic.day9
 
 class ArmyOfAntsKotlin {
 
