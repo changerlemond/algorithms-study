@@ -6,7 +6,7 @@ public class CountOfEvenAndOddNumbers {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 4, 5})));
-        System.out.println(Arrays.toString(solution(new int[]{1, 3, 5, 7})));
+        System.out.println(Arrays.toString(solution1(new int[]{1, 3, 5, 7})));
     }
 
     public static int[] solution(int[] num_list) {
