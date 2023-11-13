@@ -1,12 +1,10 @@
 package programmers.basic.day11
 
-import java.util.concurrent.atomic.LongAccumulator
-
 class FactorialKotlin {
 
     fun solution(n: Int): Int {
-        var number = 1;
-        var factorial = 1;
+        var number = 1
+        var factorial = 1
 
         while (factorial <= n) {
             number++
