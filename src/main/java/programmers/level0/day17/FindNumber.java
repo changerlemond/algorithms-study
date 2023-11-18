@@ -1,7 +1,5 @@
 package programmers.level0.day17;
 
-import java.util.stream.IntStream;
-
 public class FindNumber {
 
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import kotlin.math.sqrt
 class CheckPerfectSquareKotlin {
 
     fun solution(n: Int): Int {
-        return if ((sqrt(n.toFloat()) % 1) == 0f) 1 else 2;
+        return if ((sqrt(n.toFloat()) % 1) == 0f) 1 else 2
     }
 
 }
