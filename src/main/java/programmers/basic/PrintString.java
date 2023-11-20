@@ -12,6 +12,8 @@ public class PrintString {
         if (length >= 1 && length <= 1_000_000) {
             System.out.println(string);
         }
+
+        scanner.close();
     }
 
 }
