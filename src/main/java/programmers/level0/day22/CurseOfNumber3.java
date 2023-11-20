@@ -1,7 +1,5 @@
 package programmers.level0.day22;
 
-import java.util.stream.IntStream;
-
 public class CurseOfNumber3 {
 
     public static void main(String[] args) {
