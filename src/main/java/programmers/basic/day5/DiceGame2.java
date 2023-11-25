@@ -9,7 +9,7 @@ public class DiceGame2 {
     }
 
     public static int solution(int a, int b, int c) {
-        int result = 0;
+        int result;
         if (a != b && b != c && a != c) {
             result = a + b + c;
         } else if (a == b && b == c) {
