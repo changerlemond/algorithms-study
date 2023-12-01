@@ -2,7 +2,7 @@ package programmers.basic.day6;
 
 import java.util.Arrays;
 
-public class SequencesAndRangeQueries {
+public class SequencesAndRangeQueries3 {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(solution(new int[]{0, 1, 2, 3, 4}, new int[][]{{0, 3}, {1, 2}, {1, 4}})));
