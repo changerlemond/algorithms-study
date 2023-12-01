@@ -9,8 +9,8 @@ fun main() {
 class CreateArray4Kotlin {
 
     fun solution(arr: IntArray): IntArray {
-        val stack = Stack<Int>();
-        var i = 0;
+        val stack = Stack<Int>()
+        var i = 0
 
         while (i < arr.size) {
             if (stack.isEmpty() || stack.peek() < arr[i]) {
