@@ -6,7 +6,7 @@ public class Pcce3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int year = sc.nextInt();;
+        int year = sc.nextInt();
         String age_type = sc.next();
         int answer = 0;
 
