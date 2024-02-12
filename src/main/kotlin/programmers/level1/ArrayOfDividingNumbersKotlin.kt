@@ -13,7 +13,7 @@ class ArrayOfDividingNumbersKotlin {
         arr.forEach { if (it % divisor == 0) result += it }
         result.sort()
 
-        if (result.size == 0) result += -1
+        if (result.isEmpty()) result += -1
 
         return result
     }
