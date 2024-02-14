@@ -8,7 +8,7 @@ fun main() {
 class PickTwoAndAddKotlin {
 
     fun solution(numbers: IntArray): IntArray {
-        val result = mutableSetOf<Int>();
+        val result = mutableSetOf<Int>()
 
         for ((index, value) in numbers.withIndex()) {
             for (i in index + 1 until numbers.size) {
